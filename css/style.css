@@ -188,7 +188,6 @@ border: none;
   color: #434455;
   margin-top: 8px;
 }
-
 .we-disable {
   position: absolute;
     width: 1px;
@@ -201,24 +200,19 @@ border: none;
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-
 .we-wrap {
   padding: 120px 0;
 width: 1128px;
 display: flex;
 margin: 0 auto;
 }
-
 .we-list {
   display: flex;
 gap: 24px;
 }
-
 .we-hero-list {
   width: calc((100% - 72px) / 4);
 } 
-
-
 .our-tactic {
   font-weight: 500;
   font-size: 20px;
