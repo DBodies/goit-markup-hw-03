@@ -204,7 +204,6 @@ border: none;
     overflow: hidden;
 }
 
-
 .we-wrap {
   padding: 120px 0;
 width: 1128px;
@@ -212,16 +211,14 @@ display: flex;
 margin: 0 auto;
 }
 
-
 .we-list {
   display: flex;
 gap: 24px;
-
 }
 
-.we-list-list {
+/* .we-hero-list {
 width: calc((100% - 72px) / 4);
-}
+} */
 
 
 .our-tactic {
@@ -236,7 +233,6 @@ width: calc((100% - 72px) / 4);
 .second-header-menu {
   display: flex;
   gap: 24px;
-  margin-top: 72px;
   margin-bottom: 130px;
 }
 
@@ -249,7 +245,6 @@ width: calc((100% - 72px) / 4);
   text-align: center;
   color: #2e2f42;
   margin-bottom: 72px;
-  /* padding-top: 110px; */
 }
 
 .third-section {
@@ -292,7 +287,6 @@ width: calc((100% - 72px) / 4);
 .fourth-section-main {
   padding-top: 120px;
   padding-bottom: 120px;
-
 }
 
 .our-portfolio {
@@ -303,7 +297,7 @@ width: calc((100% - 72px) / 4);
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  margin-top: 110px;
+  /* margin-top: 110px; */
   margin-bottom: 72px;
 }
 .our-portfolio-menu {
@@ -311,8 +305,6 @@ display: flex;
 flex-wrap: wrap;
 column-gap: 24px;
 row-gap: 48px;
-margin-top: 42px;
-margin-bottom: 120px;
 }
 
 .our-portfolio-list {
@@ -323,8 +315,6 @@ margin-bottom: 120px;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;;
   border-top: none;
-  margin-bottom: 8px;
-
 }
 
 .our-port-app {
@@ -333,6 +323,7 @@ margin-bottom: 120px;
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .our-portfolio-text {
