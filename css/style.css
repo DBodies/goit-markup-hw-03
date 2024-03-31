@@ -33,17 +33,23 @@ address {
   padding-right: 15px;
   padding-left: 15px;
   align-items: center;
+    
 }
 /* -----------------HEADER------------------- */
 
 .header-nav {
   display: flex;
   flex-grow: 1;
+  margin-right: 76px;
+}
+
+.header-nav {
+  align-content: center;
 }
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 100px 0;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header .header-nav {
