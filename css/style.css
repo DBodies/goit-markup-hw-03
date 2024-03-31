@@ -37,6 +37,10 @@ address {
 }
 /* -----------------HEADER------------------- */
 
+.hero-wrap {
+  display: flex;
+}
+
 .header-nav {
   display: flex;
   flex-grow: 1;
@@ -86,6 +90,7 @@ display: flex;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .header-menu-link:hover,
@@ -120,10 +125,6 @@ display: flex;
 gap: 40px;
 }
 
-.hero-wrap {
-  display: flex;
-}
-
 
 /* -----------------HEADER------------------- */
 
@@ -152,9 +153,7 @@ gap: 40px;
   color: #fff;
 margin: 0 auto;
 max-width: 496px;
-height: 124px; 
 margin-bottom: 51px;
-display: flex;
 }
 
 .main-header-btn {
@@ -313,7 +312,7 @@ margin-bottom: 120px;
   border: 1px solid #e7e9fc;;
   border-top: none;
   margin-bottom: 8px;
-  
+
 }
 
 .our-port-app {
@@ -331,8 +330,6 @@ margin-bottom: 120px;
   letter-spacing: 0.02em;
   color: #434455;
 }
-
- 
 
 .our-portfolio-image {}
 
