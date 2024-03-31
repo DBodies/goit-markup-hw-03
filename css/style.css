@@ -128,6 +128,11 @@ gap: 40px;
 /* -----------------HEADER------------------- */
 
 /* -----------------MAIN------------------- */
+
+.first-main-section {
+  padding: 188px 0;
+}
+
 .first-section-header {
   background-color: #2e2f42;
   padding-top: 166px;
@@ -146,7 +151,7 @@ gap: 40px;
   letter-spacing: 0.02em;
   color: #fff;
 margin: 0 auto;
-width: 496px;
+max-width: 496px;
 height: 124px; 
 margin-bottom: 51px;
 display: flex;
@@ -162,10 +167,11 @@ display: flex;
   color: #fff;
   cursor: pointer;
 border-radius: 4px;
-max-width: 169px;
-max-height: 58px;
-display: flex;
+display: block;
 margin: 0 auto;
+min-width: 169px;
+height: 56px;
+border: none;
 }
 
 .main-header-btn:hover {
@@ -191,6 +197,7 @@ margin: 0 auto;
 
 
 .we-wrap {
+  padding: 120px 0;
 width: 1128px;
 display: flex;
 margin: 0 auto;
@@ -213,6 +220,7 @@ gap: 24px;
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .second-header-menu {
@@ -230,19 +238,23 @@ gap: 24px;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin-top: 110px;
+  margin-top: 72px;
   padding-top: 110px;
 }
 
 .third-section {
   background: #f4f4fd;
   height: 732px;
+  padding: 120px 0;
 }
 
-
+.names-worker {
+  padding: 32px 0;
+}
 
 .second-h-list {
-  background-color: #FFFFFF
+  background-color: #FFFFFF;
+  width: calc((100% - 72px) / 4);
 }
 
 .name-bodies {
@@ -252,6 +264,8 @@ gap: 24px;
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .bodies-do {
@@ -260,6 +274,14 @@ gap: 24px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
+}
+
+
+.fourth-section-main {
+  padding-top: 120px;
+  padding-bottom: 120px;
+
 }
 
 .our-portfolio {
@@ -283,6 +305,15 @@ margin-bottom: 120px;
 }
 
 .our-portfolio-list {
+  width: calc((100% - 48px) / 3);
+}
+
+.names-doing-app {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;;
+  border-top: none;
+  margin-bottom: 8px;
+  
 }
 
 .our-port-app {
